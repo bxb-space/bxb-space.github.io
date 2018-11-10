@@ -6,6 +6,7 @@ Il n'est pas encore construit, mais c'est une question d'heures.
 
 ## Edition du site
 Le contenu du site est situé dans le dossier `/content`.  
+Il est editable.
 
 ### git
 Modifiez ces fichiers grâce à l'interface web ou depuis une branche sur votre machine.  
@@ -14,7 +15,7 @@ L'utilisation de l'interface web ne demande pas de connaissances particulières.
 
 
 ### markdown
-Les fichiers sont ecrits dans un logiciel de markup particulier : le markdown.
+Les fichiers sont ecrits dans un langage de markup particulier : le markdown.
 Le markdown est simple, puissant et intuitif. Ce readme est ecrit en markdown.
 Pour voir sa syntaxe, [rendez-vous ici](/documentation/markdown.md).
 
