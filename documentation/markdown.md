@@ -1,6 +1,6 @@
 # Markdown cheatsheet
 
-> [Comment écrire des titres ?]](#titres)  
+> [Comment écrire des titres ?](#titres)  
 [Comment écrire des paragraphes ?](#paragraphes)  
 [Comment écrire une liste ?](#listes)  
 [Comment mettre en valeur des mots ?](#emphase)
