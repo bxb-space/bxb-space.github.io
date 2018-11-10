@@ -1,6 +1,6 @@
 # bxb-space.github.io
 Bienvenue sur le repo du site du projet BxB.  
-Le site se trouve sur [bxb.space](www.bxb.space)
+Le site se trouve sur [bxb.space](http://www.bxb.space)
 
 ## Edition du site
 Le contenu du site est situé dans le dossier `/content`.  
