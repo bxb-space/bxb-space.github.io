@@ -42,7 +42,7 @@ git commit -m "" # commit message can't be empty btw
 git push
 ```
 
-## Detailed workflow
+## Details
 ### Cloner le repo
 On utilise `clone` avec toute simplicitée :
 ```sh
@@ -96,15 +96,4 @@ and have 1 and 1 different commit(s) each, respectively.
 Il faut actualiser son repertoire avec la branche master actuelle grâce à `pull`, qui n'est que la fusion de `fetch` et `merge`.
 ```sh
 $ git pull
-```
-
-
-
-## Tips
-#### Passer d'une branche a l'autre
-```sh
-git checkout master
-```
-```sh
-git checkout <my_branch>
 ```
