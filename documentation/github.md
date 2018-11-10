@@ -1,3 +1,33 @@
+# Pour commencer ..
+## Installer Github
+#### Sur Mac
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+```
+
+
+Accepter d'installer les *Command Line Developper Tools* de Apple si brew vous le propose. Puis installer `git`
+
+```bash
+brew install git
+```
+
+
+#### Sur Linux
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+```
+
+
+#### Sur Windows
+Aller sur https://gitforwindows.org/ et l'installer
+
+## Github Desktop
+Github desktop peut se montrer pratique pour editer, explorer ou bien gerer les conflits.
+
 # Workflow
 Voici une vue rapide des differentes commandes mises en jeux.
 
