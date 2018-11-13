@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:800&amp;text=InterstlaB -fidcogfm" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Saira:200,300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700,800" rel="stylesheet">
@@ -109,7 +109,7 @@ textarea {
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-width: 1.4px;
-  stroke: #ff7830;
+  stroke: #5b9aff;
   fill: none;
   opacity: 0.9;
 }
@@ -289,13 +289,6 @@ svg[logo] {
 <body>
   <div id="app">
     <header class="fix flex">
-      <!-- <style>
-      @media screen and (max-width: 600px){
-        nav li:not(.bxb-project){
-          display
-        }
-      }
-      </style> -->
       <nav class="full flex">
         <div class="mobile-nav" :class="{open: ui.mobileNav}">
           <div class="flex center mobile-nav-reveal"
@@ -306,25 +299,25 @@ svg[logo] {
           </div>
           <nav>
             <ul class="flex col">
-              <li>
+              <li @click="handleMobileNavDirect">
                 <router-link to="/explore">Explore</router-link>
               </li>
-              <li>
+              <li @click="handleMobileNavDirect">
                 <router-link to="/workplan">Work Plan</router-link>
               </li>
-              <li>
+              <li @click="handleMobileNavDirect">
                 <router-link to="/team">Team</router-link>
               </li>
-              <li>
+              <li @click="handleMobileNavDirect">
                 <router-link to="/publications">Publications</router-link>
               </li>
-              <li>
+              <li @click="handleMobileNavDirect">
                 <router-link to="/events">Events</router-link>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="bxb-project li">
+        <div class="bxb-project li"  @click="handleMobileNavDirect">
           <router-link>BxB Project</router-link>
         </div>
         <ul class="full flex">
@@ -870,6 +863,13 @@ App.vue = new Vue({
   data: {
     ui: {
       mobileNav: false,
+    }
+  },
+  methods: {
+    handleMobileNavDirect: function(){
+      console.log("yahe", this.ui.mobileNav)
+      this.ui.mobileNav = false
+      console.log(this.ui.mobileNav)
     }
   }
 })
