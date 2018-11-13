@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:800&amp;text=InterstlaB -fidcogfm" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Saira:200,300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700,800" rel="stylesheet">
@@ -105,6 +105,14 @@ textarea {
 [href=""] {
   pointer-events: none;
 }
+.icon {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.4px;
+  stroke: #ff7830;
+  fill: none;
+  opacity: 0.9;
+}
 body {
   font-family: Montserrat;
 }
@@ -128,35 +136,126 @@ header {
     height: 60px;
   }
 }
-nav {
+header > nav {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   padding: 8px;
   font-weight: 200;
   font-family: Saira;
+  align-items: center;
 }
-nav > ul {
+header > nav > ul {
   align-items: center;
   justify-content: flex-start;
+  overflow-x: hidden;
 }
-nav li {
+@media screen and (max-width: 670px) {
+  header > nav > ul {
+    width: 0 !important;
+  }
+}
+header > nav > ul > li,
+nav .li {
   margin: 0 14px;
 }
-nav li.login {
+header > nav .li.bxb-project {
+  flex-shrink: 0;
+}
+@media screen and (max-width: 670px) {
+  header > nav .li.bxb-project {
+    transform: translateX(48px);
+  }
+}
+@media screen and (max-width: 500px) {
+  header > nav .li.bxb-project {
+    transform: translateX(64px);
+  }
+}
+nav .mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+nav .mobile-nav svg {
+  width: 37px;
+}
+@media screen and (max-width: 670px) {
+  nav .mobile-nav {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+nav .mobile-nav .mobile-nav-reveal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52px;
+  height: 48px;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 500px) {
+  nav .mobile-nav .mobile-nav-reveal {
+    height: 60px;
+    width: 64px;
+  }
+}
+nav .mobile-nav nav {
+  height: 0;
+  overflow-y: hidden;
+  transition: none;
+}
+nav .mobile-nav.open .mobile-nav-reveal {
+  box-shadow: none;
+}
+nav .mobile-nav.open .mobile-nav-reveal svg {
+  transform: rotate(0.5turn);
+}
+nav .mobile-nav.open nav {
+  padding-bottom: 13px;
+  transition: height 0.2s;
+  height: 298px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100vw;
+  background: #fff;
+}
+@media screen and (max-width: 500px) {
+  nav .mobile-nav.open nav {
+    top: 60px;
+  }
+}
+nav .mobile-nav.open nav li {
+  margin-left: 94px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+nav .mobile-nav.open nav li + li {
+  margin-top: 24px;
+}
+nav li.login,
+nav .li.login {
   margin-left: auto;
 }
-nav li.login a {
+nav li.login a,
+nav .li.login a {
   min-height: 1em;
 }
-nav li.login svg {
+nav li.login svg,
+nav .li.login svg {
   height: 0.8em;
   stroke: none;
   fill: #1d1d1d;
 }
-nav li.login div.login {
+nav li.login div.login,
+nav .li.login div.login {
   margin-right: 8px;
 }
 @media screen and (max-width: 710px) {
-  nav li.login div.login {
+  nav li.login div.login,
+  nav .li.login div.login {
     display: none;
   }
 }
@@ -197,11 +296,38 @@ svg[logo] {
         }
       }
       </style> -->
-      <nav class="full">
+      <nav class="full flex">
+        <div class="mobile-nav" :class="{open: ui.mobileNav}">
+          <div class="flex center mobile-nav-reveal"
+          @click="ui.mobileNav = !ui.mobileNav">
+            <svg class="icon chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </div>
+          <nav>
+            <ul class="flex col">
+              <li>
+                <router-link to="/explore">Explore</router-link>
+              </li>
+              <li>
+                <router-link to="/workplan">Work Plan</router-link>
+              </li>
+              <li>
+                <router-link to="/team">Team</router-link>
+              </li>
+              <li>
+                <router-link to="/publications">Publications</router-link>
+              </li>
+              <li>
+                <router-link to="/events">Events</router-link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="bxb-project li">
+          <router-link>BxB Project</router-link>
+        </div>
         <ul class="full flex">
-          <li class="bxb-project">
-            <router-link>BxB Project</router-link>
-          </li>
           <li>
             <router-link to="/explore">Explore</router-link>
           </li>
@@ -217,19 +343,19 @@ svg[logo] {
           <li>
             <router-link to="/events">Events</router-link>
           </li>
-          <li class="login" hide>
-            <a href="http://google.com" class="login flex center">
-              <div class="login">
-                login
-              </div>
-              <svg xmlns="http://www.w3.org/2000/svg" class="login icon" viewBox="0 0 20 20">
-                <path class="cls-1"
-                d="M8.1,19.82a10,10,0,0,1-4-17.89A1.33,1.33,0,0,1,6,2.42H6a1.35,1.35,0,0,1-.41,1.7,7.33,7.33,0,1,0,5.71-1.33V9.67A1.33,1.33,0,0,1,10,11h0A1.33,1.33,0,0,1,8.67,9.67V1.07A1.07,1.07,0,0,1,9.74,0h0c4.77,0,9.48,3.82,10.16,8.54A10,10,0,0,1,8.1,19.82Z"
-                />
-              </svg>
-            </a>
-          </li>
         </ul>
+        <div class="login li">
+          <a href="http://google.com" class="login flex center">
+            <div class="login">
+              login
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="login icon" viewBox="0 0 20 20">
+              <path class="cls-1"
+              d="M8.1,19.82a10,10,0,0,1-4-17.89A1.33,1.33,0,0,1,6,2.42H6a1.35,1.35,0,0,1-.41,1.7,7.33,7.33,0,1,0,5.71-1.33V9.67A1.33,1.33,0,0,1,10,11h0A1.33,1.33,0,0,1,8.67,9.67V1.07A1.07,1.07,0,0,1,9.74,0h0c4.77,0,9.48,3.82,10.16,8.54A10,10,0,0,1,8.1,19.82Z"
+              />
+            </svg>
+          </a>
+        </div>
       </nav>
     </header>
     <div class="router-container">
@@ -496,11 +622,11 @@ Vue.component('events-page', {
   template: `
 <div :class="$options.name" class="small">
 <h3>
-À venir
+Upcoming
 </h3>
 [...]
 <h3>
-Passées
+Attended
 </h3>
 [...]
 
@@ -742,7 +868,9 @@ const App = {
 App.vue = new Vue({
   el: '#app',
   data: {
-
+    ui: {
+      mobileNav: true,
+    }
   }
 })
 
