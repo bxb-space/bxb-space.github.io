@@ -159,11 +159,12 @@ ul.emphase::after {
 }
 .landing-page ul.emphase {
   margin: 74px auto;
+  max-width: 600px;
 }
 .landing-page ul.emphase::before,
 .landing-page ul.emphase::after {
   top: 10px;
-  bottom: 10px;
+  bottom: 7px;
   width: 3px;
   border-radius: 2px;
   background-color: #ff7830;
