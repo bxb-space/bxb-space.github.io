@@ -61,7 +61,8 @@ Ces deux listes sont équivalentes, on peut utiliser `-, *, +` et `-`.
 * element 3
 ```
 
-> - element 1
+
+- element 1
 - element 2
 - element 3
 
@@ -71,7 +72,7 @@ Voici les listes numérotées :
 2. 2
 ```
 
-> 1. element 1
+1. element 1
 2. element 2
 3. element 3
 
@@ -80,30 +81,43 @@ Voici les listes numérotées :
 #### Italique
 
 ```
-**
+Voici un texte en *italique*
 ```
+Voici un texte en *italique*
 #### Gras
 #### Encadrement
 ```
-``
+Cette encadrement reste dans la ligne : `texte`.
 ```
-
+Cette encadrement reste dans la ligne : `texte`.
+Pour encadrer un mot special, utilisé la plupart du temps pour encadrer un petit bout de code.
 
 ### Tableaux
 ```
+| Col 1 | Col 2 | Col 3 |
+|-------|-------|-------|
+| Row 1 | Row 1 | Row 1 |
+| Row 2 | Row 2 | Row 2 |
 ```
 
 
 ### Blocs
 ```
+> Ce paragraphe est un bloc.
+> Il est possible d'y utiliser les *autres syntaxes*  également
 ```
+> Ce paragraphe est un bloc.
+> Il est possible d'y utiliser les *autres syntaxes*  également
 
 
 ### Liens
 ```md
+[Je suis un lien hypertexte](https://www.google.com)
 ```
 
 
 ### Images
 ```md
+![description du texte](https://cdn.radiofrance.fr/s3/cruiser-production/2017/05/46b0db27-4627-4660-96ba-02ba7dad3cbb/838_planck.jpg)
 ```
+La description du texte est utile uniquement pour le referencement web et les malvoyants.
