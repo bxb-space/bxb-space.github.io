@@ -118,7 +118,7 @@ Pour encadrer un mot special, utilisé la plupart du temps pour encadrer un peti
 ```md
 [Je suis un lien hypertexte](https://www.google.com)
 ```
-[Je suis un lien hypertexte](https://www.google.com google)
+[Je suis un lien hypertexte](https://www.google.com)
 
 
 ### Images
