@@ -92,7 +92,7 @@ Voici un texte en *italique*
 ```
 Cette encadrement reste dans la ligne : `texte`.
 ```
-Cette encadrement reste dans la ligne : `texte`.
+Cette encadrement reste dans la ligne : `texte`.  
 Pour encadrer un mot special, utilisé la plupart du temps pour encadrer un petit bout de code.
 
 ### Tableaux
@@ -118,7 +118,7 @@ Pour encadrer un mot special, utilisé la plupart du temps pour encadrer un peti
 ```md
 [Je suis un lien hypertexte](https://www.google.com)
 ```
-[Je suis un lien hypertexte](https://www.google.com)
+[Je suis un lien hypertexte](https://www.google.com google)
 
 
 ### Images
