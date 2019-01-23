@@ -1,7 +1,8 @@
 ## Proposal  
 
-> The BxB project addresses outstanding questions central to two rapidly advancing fields of astrophysics and cosmology : comsoc magnetistm through observations of Galactic magnetic fields and the Big-Bang through the observation of the Cosmic Microwave Background (CMB).  
->Research is funded by the French national science foundation (Agence National de la Recherche, ANR).  
+> The BxB project addresses outstanding questions central to two rapidly advancing fields of astrophysics and cosmology : cosmic magnetistm through observations of Galactic magnetic fields and the Big-Bang through the observation of the Cosmic Microwave Background (CMB).  
+>
+> This research is funded by the French national science foundation (Agence National de la Recherche, ANR).  
 
 #### Cosmic magnetism
 
@@ -15,7 +16,7 @@ that give us access to magnetic fields in the Milky Way. A diverse set of observ
 
 #### Big-Bang cosmology
 
-Observations of the cosmic microwave background (CMB) have contributed to transform
+CMB observations have contributed to transform
 cosmology into a high-precision science. Today, the detection of the primordial
 B-mode polarization of the CMB is the foremost challenge. The pattern and amplitude of this signal on large-scales reflect
 the conditions that initiated the Big Bang, and thus directly constrain the physics on energy scales
