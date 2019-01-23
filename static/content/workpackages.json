@@ -1,16 +1,19 @@
 [
   {
-     "name": "3D mapping of the ordered β field from the Sun to the Galactic halo",
+     "name": "3D mapping of the ordered magnetic B-field in the Solar neighborhood",
+     "id": "3d-mapping-of-the-ordered-magnetic-field-in-the-solar-neighborhood",
      "description": "",
      "members": [""]
   },
   {
-     "name": "Statistical description of the turbulent magnetized diffuse ISM",
+     "name": "Statistical description of the turbulent magnetized interstellar medium",
+     "id": "statistical-description-of-the-turbulent-magnetized-interstellar-medium",
      "description": "",
      "members": [""]
   },
   {
-     "name": "Separation between Galactic and primordial CMB B-modes",
+     "name": "Tying CMB polarization studies to the astrophysics of Galactic foregrounds",
+     "id": "tying-cmb-polarization-studies-to-the-astrophysics-of-galactic-foregrounds",
      "description": "",
      "members": [""]
   }
