@@ -1,0 +1,497 @@
+[{
+    "place": "ENS",
+    "date": {
+      "format": "February 2019",
+      "start": "12 February 2019",
+      "end": "14 February 2019"
+    },
+    "days": [{
+      "date": "Tuesday 12",
+      "sessions": [{
+        "name": "Latest results from Planck data analysis",
+        "schedule": ["10h30", "12h"],
+        "talks": [{
+          "name": "The astrophysics of dust polarization from Planck",
+          "schedule": ["10h30", "11h"],
+          "speaker": "François Levrier",
+          "file": "url"
+        }, {
+          "name": "Modelling and testing the impact of grain alignment on dust polarization",
+          "schedule": ["11h", "11h30"],
+          "speaker": "Vincent Guiller",
+          "file": ""
+        }, {
+          "name": "Statistical characterization of polarized foregrounds",
+          "schedule": ["11h30", "12h"],
+          "speaker": "François Boulanger",
+          "files": []
+        }]
+      }, {
+        "name": "The ordered magnetic field in the Solar neighborhood ",
+        "schedule": ["14h", "17h"],
+        "talks": [{
+          "name": "3D Mapping of the ISM",
+          "schedule": ["14h", "14h30"],
+          "speaker": "Rosine Lallement",
+          "file": ""
+        }, {
+          "name": "3D modelling of the ordered magnetic field",
+          "schedule": ["14h30", "15h"],
+          "speaker": "Vincent Pelgrims",
+          "file": ""
+        }, {
+          "name": "Impact of the Coriolis force on the Local Bubble expansion",
+          "schedule": ["15h", "15h30"],
+          "speaker": "Katia Ferriere",
+          "file": ""
+        }, {
+          "name": "Break",
+          "schedule": ["15h30", "16h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Dust E and B-modes on large angular scales",
+          "schedule": ["16h", "16h30"],
+          "speaker": "Andrea Bracco",
+          "file": ""
+        }, {
+          "name": "Discussion and Planning WP1 chaired by Katia Ferriere",
+          "schedule": ["16h30", "17h"],
+          "speaker": "",
+          "file": ""
+        }]
+      }]
+    }, {
+      "date": "Wednesday 13",
+      "sessions": [{
+        "name": "The turbulent component of interstellar magnetic fields",
+        "schedule": ["9h30", "13h"],
+        "talks": [{
+          "name": "Non-Gaussianity of interstellar magnetic fields and turbulence dissipation",
+          "schedule": ["9h30", "10h"],
+          "speaker": "Pierre Lesaffre",
+          "file": ""
+        }, {
+          "name": "MHD instabilities with gravity: spectral theory in astrophysics",
+          "schedule": ["10h", "10h30"],
+          "speaker": "Jean Baptiste Durrive",
+          "file": ""
+        }, {
+          "name": "Shocks Modeling - Andrew Lehman",
+          "schedule": ["10h30", "11h"],
+          "speaker": "Andrew Lehman",
+          "file": ""
+        }, {
+          "name": "Break",
+          "schedule": ["11h", "11h30"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "LOFAR Faraday tomography of a fast interstellar shock",
+          "schedule": ["11h30", "12h"],
+          "speaker": "Marta Alves",
+          "file": ""
+        }, {
+          "name": "Can supershell collisions be detected with LOFAR?",
+          "schedule": ["12h", "12h30"],
+          "speaker": "Marta Colakovic-Benceric",
+          "file": ""
+        }, {
+          "name": "The LOFAR sky survey",
+          "schedule": ["12h30", "13h"],
+          "speaker": "Vibor Jelic",
+          "file": ""
+        }, {
+          "name": "Lunch Break",
+          "schedule": ["13h", "14h"],
+          "speaker": "",
+          "file": ""
+        }]
+      }, {
+        "name": "Statistical analysis and synthesis of interstellar emission",
+        "schedule": ["14h", "17h"],
+        "talks": [{
+          "name": "Numerical simulations of the magnetized interstellar medium (ISM)",
+          "schedule": ["14h", "14h30"],
+          "speaker": "Patrick Hennebelle",
+          "file": ""
+        }, {
+          "name": "The reduced wavelet scattering transform (RWST): statistical description and synthesis of ISM emission maps",
+          "schedule": ["14h30", "15h"],
+          "speaker": "Erwan Allys",
+          "file": ""
+        }, {
+          "name": " RWST analysis of Stokes maps from MHD simulations of the diffuse ISM",
+          "schedule": ["15h", "15h30"],
+          "speaker": "Bruno Regaldo",
+          "file": ""
+        }, {
+          "name": "Break",
+          "schedule": ["15h30", "16h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Discussion and Planning WP2 chaired by François Levrier",
+          "schedule": ["16h", "17h"],
+          "speaker": "",
+          "file": ""
+        }]
+      }, {
+        "name": "CMB Experiments",
+        "schedule": ["17h", "18h"],
+        "talks": [{
+          "name": "B-modes from space: LiteBIRD",
+          "schedule": ["17h", "17h30"],
+          "speaker": "Ludovic Montier",
+          "file": ""
+        }, {
+          "name": "B-modes from Atacama: Simons Observatory",
+          "schedule": ["17h30", "18h"],
+          "speaker": "Radek Stompor",
+          "file": ""
+        }]
+      }]
+    }, {
+      "date": "Thursday 14",
+      "sessions": [{
+        "name": "Modeling of dust emission",
+        "schedule": ["9h30", "16h"],
+        "talks": [{
+          "name": "Spectral fitting of dust total intensity",
+          "schedule": ["9h30", "10h"],
+          "speaker": "Marc-Antoine Miville Deschênes",
+          "file": ""
+        }, {
+          "name": "Dust moments : towards a new spectral modeling of dust emission",
+          "schedule": ["10h", "10h30"],
+          "speaker": "Anna Mangilli",
+          "file": ""
+        }, {
+          "name": "Statistical modeling of polarized foregrounds",
+          "schedule": ["10h30", "11h"],
+          "speaker": "Tuhin Ghosh",
+          "file": ""
+        }, {
+          "name": "Break",
+          "schedule": ["11h", "11h30"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "CMB forecasting",
+          "schedule": ["11h30", "12h"],
+          "speaker": "Josquin Errad",
+          "file": ""
+        }, {
+          "name": "Parametric component separation (FGBuster)",
+          "schedule": ["12h", "12h30"],
+          "speaker": "Josquin Errard & Radek Stompor",
+          "file": ""
+        }, {
+          "name": "Lunch Break",
+          "schedule": ["12h30", "14h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Discussions and Planning WP3 chaired by Radek Stompor",
+          "schedule": ["14h", "15h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Discussion on BxB ANR report and interfaces between WPs chaired by François Boulanger",
+          "schedule": ["15h", "16h"],
+          "speaker": "",
+          "file": ""
+        }]
+      }]
+    }]
+  },
+
+
+  {
+    "place": "Toulouse",
+    "date": {
+      "format": "June 2018",
+      "start": "14 June 2018",
+      "end": "14 June 2018"
+    },
+    "days": [{
+      "date": "Thursday 14",
+      "sessions": [{
+        "name": "Thursday morning",
+        "schedule": ["10h", "12h"],
+        "talks": [{
+          "name": "Overview of the latest developments of BxB",
+          "schedule": ["10h", "10h10"],
+          "speaker": "François Boulanger",
+          "file": ""
+        }, {
+          "name": "A model of the magnetic field in the Local Bubble",
+          "schedule": ["10h10", "10h40"],
+          "speaker": "Marta Alves",
+          "file": ""
+        }, {
+          "name": "Planck paper L11b ­ Planck 2017 results. Polarised thermal emission from Galactic dust",
+          "schedule": ["10h40", "11h10"],
+          "speaker": "François Levrier",
+          "file": ""
+        }, {
+          "name": "Towards a refined statistical description of interstellar turbulence",
+          "schedule": ["11h10", "11h30"],
+          "speaker": "Erwan Allys",
+          "file": ""
+        }, {
+          "name": "Discussion",
+          "schedule": ["11h30", "12h"],
+          "speaker": "",
+          "file": ""
+        }]
+      }, {
+        "name": "Thursday afternoon",
+        "schedule": ["14h", "17h10"],
+        "talks": [{
+          "name": "Ongoing work on E and B dust polarization modes: observations and modelling",
+          "schedule": ["14h", "14h30"],
+          "speaker": "Andrea Bracco",
+          "file": ""
+        }, {
+          "name": "Latest results from LOFAR & can we observe super­shells with LOFAR (based on MHD simulations) ?",
+          "schedule": ["14h30", "15h"],
+          "speaker": "Vibor Jelic",
+          "file": ""
+        }, {
+          "name": "Discussion",
+          "schedule": ["15h", "15h30"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Break",
+          "schedule": ["15h30", "16h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Interstellar shocks",
+          "schedule": ["16h", "16h20"],
+          "speaker": "Andrew Lehman",
+          "file": ""
+        }, {
+          "name": "Dissipation in the turbulent ISM: a link with rotation measure?",
+          "schedule": ["16h20", "16h40"],
+          "speaker": "Pierre Lesaffre",
+          "file": ""
+        }, {
+          "name": "Discussion",
+          "schedule": ["16h40", "17h10"],
+          "speaker": "",
+          "file": ""
+        }]
+      }]
+    }, {
+      "name": "Friday morning",
+      "schedule": ["9h30", "12h20"],
+      "talks": [{
+        "name": "IMAGINE ­ Interstellar MAGnetic field Inference Engine",
+        "schedule": ["9h30", "9h50"],
+        "speaker": "Marijke Haverkorn",
+        "file": ""
+      }, {
+        "name": "Reconstruction of the regular Galactic magnetic field from polarized emission at CMB frequencies",
+        "schedule": ["9h50", "10h10"],
+        "speaker": "Vincent Pelgrims",
+        "file": ""
+      }, {
+        "name": "Discussion",
+        "schedule": ["10h10", "10h40"],
+        "speaker": "",
+        "file": ""
+      }, {
+        "name": "Break",
+        "schedule": ["10h40", "11h10"],
+        "speaker": "",
+        "file": ""
+      }, {
+        "name": "Statistical analysis and modelling of dust polarization",
+        "schedule": ["11h10", "11h30"],
+        "speaker": "François Boulanger",
+        "file": ""
+      }, {
+        "name": "Non­Gaussianity of diffuse Galactic synchrotron emission at 408 MHz",
+        "schedule": ["11h30", "11h50"],
+        "speaker": "Tuhin Ghosh",
+        "file": ""
+      }, {
+        "name": "Discussion",
+        "schedule": ["11h50", "12h20"],
+        "speaker": "",
+        "file": ""
+      }]
+    }, {
+      "name": "Friday afternoon",
+      "schedule": ["14h20", "17h10"],
+      "talks": [{
+        "name": "New 3d maps of the local interstellar medium",
+        "schedule": ["14h20", "14h50"],
+        "speaker": "Rosine Lallement",
+        "file": ""
+      }, {
+        "name": "Review on starlight polarisation",
+        "schedule": ["14h50", "15h10"],
+        "speaker": "Vincent Guillet",
+        "file": ""
+      }, {
+        "name": "Discussion",
+        "schedule": ["15h10", "17h10"],
+        "speaker": "",
+        "file": ""
+      }]
+    }]
+  },
+  {
+    "place": "Montpellier",
+    "date": {
+      "format": "February 2019",
+      "start": "8 November 2017",
+      "end": "9 November 2017"
+    },
+    "days": [{
+      "date": "Wednesday 8",
+      "sessions": [{
+        "name": "WP1 - 3D magnetic field",
+        "schedule": ["10h45", "12h45"],
+        "talks": [{
+          "name": "General Introduction",
+          "schedule": ["10h45", "11h15"],
+          "speaker": "Katia Ferriere",
+          "file": ""
+        }, {
+          "name": "The 3D ISM from ground based and the Gaia stellar surveys",
+          "schedule": ["11h15", "11h45"],
+          "speaker": "Rosine Lallement",
+          "file": ""
+        }, {
+          "name": "The Local Bubble: a magnetic veil to the Galaxy",
+          "schedule": ["11h45", "12h15"],
+          "speaker": "Katia Ferriere",
+          "file": ""
+        }, {
+          "name": "Lunch Break",
+          "schedule": ["11h45", "12h15"],
+          "speaker": "Katia Ferriere",
+          "file": ""
+        }]
+      }, {
+        "name": "WP1 and 2 - Numerical MHD simulations",
+        "schedule": ["14h30", "17h"],
+        "talks": [{
+          "name": "Introduction on MHD ISM simulations",
+          "schedule": ["", ""],
+          "speaker": "Patrick Hennebelle",
+          "file": ""
+        }, {
+          "name": "Statistical analysis of simulations",
+          "schedule": ["", ""],
+          "speaker": "Marc-Antoine Miville Deschênes",
+          "file": ""
+        }, {
+          "name": "Comparing simulations with Planck data",
+          "schedule": ["", ""],
+          "speaker": "François Levrier",
+          "file": ""
+        }, {
+          "name": "The impact of Galactic shear and stellar feedback",
+          "schedule": ["", ""],
+          "speaker": "Cédric Colling",
+          "file": ""
+        }]
+      }]
+    }, {
+      "date": "Thursday 9",
+      "sessions": [{
+        "name": "WP2 - Statistical description of the magnetized ISM",
+        "schedule": ["9h30", "12h"],
+        "talks": [{
+          "name": "Introduction: project goals and methodology",
+          "schedule": ["", ""],
+          "speaker": "Francois Levrier",
+          "file": ""
+        }, {
+          "name": "Statistics of magnetized turbulence from numerical simulations and observations",
+          "schedule": ["", ""],
+          "speaker": "Edith Falgarone",
+          "file": ""
+        }, {
+          "name": "Parametric models of the polarized thermal emission fitted to Planck data",
+          "schedule": ["", ""],
+          "speaker": "Jeremy Neveu",
+          "file": ""
+        }, {
+          "name": "The wavelet scattering method",
+          "schedule": ["", ""],
+          "speaker": "Sixin Zhang",
+          "file": ""
+        }, {
+          "name": "Model of the dust spectral energy distribution for polarization and total intensity",
+          "schedule": ["", ""],
+          "speaker": "Vincent Guillet",
+          "file": ""
+        }, {
+          "name": "Lunch Break",
+          "schedule": ["", ""],
+          "speaker": "Vincent Guillet",
+          "file": ""
+        }]
+      }, {
+        "name": "WP3 - CMB B-modes: forecast and component separation",
+        "schedule": ["13h45", "16h15"],
+        "talks": [{
+          "name": "General introduction about CMB primordial B-modes: project goals and methodology",
+          "schedule": ["", ""],
+          "speaker": "Radek Stompor",
+          "file": ""
+        }, {
+          "name": "Assesing and optimizing component separation for primordial B-modes",
+          "schedule": ["", ""],
+          "speaker": "Josquin Errard",
+          "file": ""
+        }, {
+          "name": "Statistical modeling of foregrounds and first scientific results from the Quijote experiment",
+          "schedule": ["", ""],
+          "speaker": "Flavien Vansyngel",
+          "file": ""
+        }, {
+          "name": "The impact of Galactic shear and stellar feedback",
+          "schedule": ["", ""],
+          "speaker": "Cédric Colling",
+          "file": ""
+        }]
+      }, {
+        "name": "WP3 - CMB B-modes: forecast and component separation",
+        "schedule": ["13h45", "16h15"],
+        "talks": [{
+          "name": "General introduction about CMB primordial B-modes: project goals and methodology",
+          "schedule": ["", ""],
+          "speaker": "Radek Stompor",
+          "file": ""
+        }, {
+          "name": "Assesing and optimizing component separation for primordial B-modes",
+          "schedule": ["", ""],
+          "speaker": "Josquin Errard",
+          "file": ""
+        }, {
+          "name": "Statistical modeling of foregrounds and first scientific results from the Quijote experiment",
+          "schedule": ["", ""],
+          "speaker": "Flavien Vansyngel",
+          "file": ""
+        }]
+      }, {
+        "name": "WP3 - CMB B-modes: forecast and component separation",
+        "schedule": ["13h45", "16h15"],
+        "talks": [{
+          "name": "First scientific results from PILOT",
+          "schedule": ["16h15", "16h45"],
+          "speaker": "Anna Mangili",
+          "file": ""
+        }]
+      }]
+    }]
+  }
+]
