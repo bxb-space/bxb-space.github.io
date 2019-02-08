@@ -8,41 +8,51 @@
     "days": [{
       "date": "Tuesday 12",
       "sessions": [{
-        "name": "Latest results from Planck data analysis",
-        "schedule": ["10h30", "12h"],
+        "name": "Latest results from Planck, Pilot and Quijote",
+        "schedule": ["11h", "14h30"],
         "talks": [{
           "name": "The astrophysics of dust polarization from Planck",
-          "schedule": ["10h30", "11h"],
+          "schedule": ["11h", "11h30"],
           "speaker": "François Levrier",
-          "file": "url"
+          "file": ""
         }, {
           "name": "Modelling and testing the impact of grain alignment on dust polarization",
-          "schedule": ["11h", "11h30"],
+          "schedule": ["11h30", "12h"],
           "speaker": "Vincent Guiller",
           "file": ""
         }, {
           "name": "Statistical characterization of polarized foregrounds",
-          "schedule": ["11h30", "12h"],
+          "schedule": ["12h", "12h30"],
           "speaker": "François Boulanger",
-          "files": []
+          "file": ""
+        }, {
+          "name": "Dust polarization from PILOT",
+          "schedule": ["12h30", "13h"],
+          "speaker": "Jonathan Aumont",
+          "file": ""
+        }, {
+          "name": "Lunch Break",
+          "schedule": ["13h", "14h"],
+          "speaker": "",
+          "file": ""
+        }, {
+          "name": "Galactic foregrounds as seen by Quijote",
+          "schedule": ["14h", "14h30"],
+          "speaker": "Flavien Vansyngel",
+          "file": ""
         }]
       }, {
         "name": "The ordered magnetic field in the Solar neighborhood ",
-        "schedule": ["14h", "17h"],
+        "schedule": ["14h30", "18h"],
         "talks": [{
           "name": "3D Mapping of the ISM",
-          "schedule": ["14h", "14h30"],
+          "schedule": ["14h30", "15h"],
           "speaker": "Rosine Lallement",
           "file": ""
         }, {
           "name": "3D modelling of the ordered magnetic field",
-          "schedule": ["14h30", "15h"],
-          "speaker": "Vincent Pelgrims",
-          "file": ""
-        }, {
-          "name": "Impact of the Coriolis force on the Local Bubble expansion",
           "schedule": ["15h", "15h30"],
-          "speaker": "Katia Ferriere",
+          "speaker": "Vincent Pelgrims",
           "file": ""
         }, {
           "name": "Break",
@@ -55,8 +65,13 @@
           "speaker": "Andrea Bracco",
           "file": ""
         }, {
-          "name": "Discussion and Planning WP1 chaired by Katia Ferriere",
+          "name": "Impact of the Coriolis force on the Local Bubble expansion",
           "schedule": ["16h30", "17h"],
+          "speaker": "Katia Ferriere",
+          "file": ""
+        }, {
+          "name": "WP1 Discussion and Planning chaired by Katia Ferriere",
+          "schedule": ["17h", "18h"],
           "speaker": "",
           "file": ""
         }]
@@ -113,7 +128,7 @@
         "talks": [{
           "name": "Numerical simulations of the magnetized interstellar medium (ISM)",
           "schedule": ["14h", "14h30"],
-          "speaker": "Patrick Hennebelle",
+          "speaker": "Cedric Colling",
           "file": ""
         }, {
           "name": "The reduced wavelet scattering transform (RWST): statistical description and synthesis of ISM emission maps",
