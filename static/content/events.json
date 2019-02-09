@@ -1,6 +1,6 @@
 [{
     "place": "ENS",
-    "description": "The room E122 is on the first floor. When you exit the staircase (or elevator) turn left and go to the very end of the corridor. The room is to your left before you reach a main staircase.",
+    "description": "The room E122 is on the first floor. \nWhen you exit the staircase (or elevator) turn left and go to the very end of the corridor. The room is to your left before you reach a main staircase.",
     "date": {
       "format": "February 2019",
       "start": "12 February 2019",
@@ -225,6 +225,7 @@
 
   {
     "place": "Toulouse",
+    "description": "",
     "date": {
       "format": "June 2018",
       "start": "14 June 2018",
@@ -363,6 +364,7 @@
   },
   {
     "place": "Montpellier",
+    "description": "",
     "date": {
       "format": "February 2019",
       "start": "8 November 2017",
