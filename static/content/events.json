@@ -2,7 +2,7 @@
     "place": "ENS",
     "description": "The room E122 is on the first floor. \nWhen you exit the staircase (or elevator) turn left and go to the very end of the corridor. The room is to your left before you reach a main staircase.",
     "date": {
-      "format": "February 2019",
+      "format": "February 12-14, 2019",
       "start": "12 February 2019",
       "end": "14 February 2019"
     },
@@ -19,7 +19,7 @@
         }, {
           "name": "Modelling and testing the impact of grain alignment on dust polarization",
           "schedule": ["11h30", "12h"],
-          "speaker": "Vincent Guiller",
+          "speaker": "Vincent Guillet",
           "file": ""
         }, {
           "name": "Statistical characterization of polarized foregrounds",
@@ -227,7 +227,7 @@
     "place": "Toulouse",
     "description": "",
     "date": {
-      "format": "June 2018",
+      "format": "June 14-15, 2018",
       "start": "14 June 2018",
       "end": "15 June 2018"
     },
@@ -363,7 +363,7 @@
     }]
   },
   {
-    "place": "Montpellier",
+    "place": "Montpellier: project kick-off",
     "description": "Kick-off meeting",
     "date": {
       "format": "8-9 November 2017",
