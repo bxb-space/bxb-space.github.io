@@ -1,5 +1,5 @@
 [{
-    "place": "ENS",
+    "place": "ENS: First results, on-going work and perspectives",
     "description": "The room E122 is on the first floor. \nWhen you exit the staircase (or elevator) turn left and go to the very end of the corridor. The room is to your left before you reach a main staircase.",
     "date": {
       "format": "February 12-14, 2019",
@@ -224,7 +224,7 @@
 
 
   {
-    "place": "Toulouse",
+    "place": "Toulouse: Galactic astrophysics",
     "description": "",
     "date": {
       "format": "June 14-15, 2018",
@@ -366,7 +366,7 @@
     "place": "Montpellier: project kick-off",
     "description": "Kick-off meeting",
     "date": {
-      "format": "8-9 November 2017",
+      "format": "November 8-9, 2017",
       "start": "8 November 2017",
       "end": "9 November 2017"
     },
