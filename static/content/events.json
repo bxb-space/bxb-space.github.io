@@ -229,7 +229,7 @@
     "date": {
       "format": "June 2018",
       "start": "14 June 2018",
-      "end": "14 June 2018"
+      "end": "15 June 2018"
     },
     "days": [{
       "date": "Thursday 14",
@@ -364,9 +364,9 @@
   },
   {
     "place": "Montpellier",
-    "description": "",
+    "description": "Kick-off meeting",
     "date": {
-      "format": "November 2017",
+      "format": "8-9 November 2017",
       "start": "8 November 2017",
       "end": "9 November 2017"
     },
