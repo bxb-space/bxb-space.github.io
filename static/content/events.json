@@ -304,7 +304,7 @@
       }]
     }, {
     "date": "Friday 15",
-    "session": [{
+    "sessions": [{
       "name": "Friday morning",
       "schedule": ["9h30", "12h20"],
       "talks": [{
