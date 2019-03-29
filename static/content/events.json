@@ -303,6 +303,8 @@
         }]
       }]
     }, {
+    "date": "Friday 15",
+    "session": [{
       "name": "Friday morning",
       "schedule": ["9h30", "12h20"],
       "talks": [{
@@ -360,6 +362,7 @@
         "speaker": "",
         "file": ""
       }]
+    }]
     }]
   },
   {
